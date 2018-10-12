@@ -1,3 +1,3 @@
 # This is my final project.  
 
-## Please navigate to the [requirements](./docs/REQUIREMENTS.md) to see more.
+## Please navigate to the [requirements](https://github.com/devinepk/final/tree/master/docs) to see more.
