@@ -41,7 +41,7 @@ Journaling is commonly accepted as being a positive activity, but it's difficult
   - README.md
 
 ## 5. Design Objectives
-### [See wireframe here](https://balsamiq.cloud/satp86q/ptjyh0o/r2164). 
+### [See wireframe here](https://balsamiq.cloud/satp86q/ptjyh0o/r2164).
 This will have a clean, uncluttered, and modern look, with ample whitespace to allow the prompt to stand out.  It should be warm and **very** visually appealing.
   * Add-On Features
 
@@ -49,7 +49,28 @@ This will have a clean, uncluttered, and modern look, with ample whitespace to a
     - Users can create a board(? together, practicing gratitude with and for each other.
     - Create social shareables from current and previous submissions
 
-## 6. Data Elements
+## 6. Data Elements - like instagram for journaling
+User (table)
+  id (columns)
+  First name  
+  Last name
+  Email address
+  Screen name
+  Number of posts
+  Number of followers
+  Number of people following
+
+
+Post (table)
+  id (columns)
+  Image or text?
+  Date submitted
+  Time submitted
+  Location submited (gps coordinates)
+  Favorite (y/n)
+  Status (private/public)
+
+  
 
   * Displayed:
     - User input
