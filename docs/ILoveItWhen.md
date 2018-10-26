@@ -70,7 +70,7 @@ Post (table)
   Favorite (y/n)
   Status (private/public)
 
-  
+
 
   * Displayed:
     - User input
