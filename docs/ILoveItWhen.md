@@ -49,37 +49,42 @@ This will have a clean, uncluttered, and modern look, with ample whitespace to a
     - Users can create a board(? together, practicing gratitude with and for each other.
     - Create social shareables from current and previous submissions
 
-## 6. Data Elements - like instagram for journaling
-User (table)
-  id (columns)
-  First name  
-  Last name
-  Email address
-  Screen name
-  Number of posts
-  Number of followers
-  Number of people following
+## 6. Data Elements - like instagram for journaling(?)
+* User Information (table)
+  - id (columns)
+  - First name  
+  - Last name
+  - Email address
+  - Screen name
+  - Number of posts
+  - Number of followers
+  - Number of people following
 
+* Post Information(table)
+  - id (columns)
+  - Image or text?
+  - Date submitted
+  - Time submitted
+  - Location submitted (gps coordinates)
+  - Favorite (y/n)
+  - Status (private/public)
 
-Post (table)
-  id (columns)
-  Image or text?
-  Date submitted
-  Time submitted
-  Location submited (gps coordinates)
-  Favorite (y/n)
-  Status (private/public)
+* Pivot Table 1 (from table: User Information && table: Post Information) - Displayed to User:
+  - Screen name
+  - Image/text
+  - Date submitted
+  - Time submitted
+  - Favorite (y/n)
+  - Status (private/public)
 
-
-
-  * Displayed:
-    - User input
-
-  * Collected:
-    - User Input
-    - Time of submission
-    - Date of submission
-    - Location (IP) of submission
+* Pivot Table 2 (from table: User Information && Post Information) - Stats (displayed to user?)
+  - Number of posts
+  - Number of followers
+  - Number of people following
+  - Time most frequently submitted
+  - Day of the week most frequently submitted
+  - Number of public posts
+  - Number of private post
 
 
 ## 7. How The Pages Will Look
