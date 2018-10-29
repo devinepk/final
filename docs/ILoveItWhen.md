@@ -49,6 +49,8 @@ This will have a clean, uncluttered, and modern look, with ample whitespace to a
     - Users can create a board(? together, practicing gratitude with and for each other.
     - Create social shareables from current and previous submissions
 
+  * Background color: #fff;
+
 ## 6. Data Elements - like instagram for journaling(?)
 * User Information (table)
   - id (columns)
